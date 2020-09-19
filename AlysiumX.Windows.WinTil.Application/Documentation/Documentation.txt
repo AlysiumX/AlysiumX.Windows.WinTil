@@ -1,0 +1,25 @@
+﻿What is WinTil?
+
+WinTil stands for Windows Tilde which is the keyboard command to launch the command parser. From there commands can either be entered or setup for future runs.
+
+Contexts - Each context can have its own sets of commands.
+Contexts - Each context has one of two modes, either key entry or value entry (Need better names)
+KeyEntry happens on key press.
+Value Entry show the command box to enter commands.
+( shortcut - ac )add context [name]
+( shortcut - c[name] ) switch to a context.
+
+
+When adding a command the type must be chosen.
+Add Commands : 
+( shortcut - al )add location [name] [location]
+( shortcut - aw )add website [name] [url]
+( shortcut - am )add macro [name] - future implementation - this will start recording key presses and mouse positions, push Windows Tilde to end the recording.
+rec - Simple macro recording, windows til ends recording
+play - plays the last simple macro.
+
+Running a command, call the command name and any arguments afterword.
+Examples
+	
+
+
