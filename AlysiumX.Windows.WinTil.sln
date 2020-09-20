@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlysiumX.Windows.WinTil.Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlysiumX.Windows.WinTil.Application", "AlysiumX.Windows.WinTil.Application\AlysiumX.Windows.WinTil.Application.csproj", "{79F3414E-B176-4E56-87B9-A28DE32B6012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlysiumX.Windows.WinTil.UI", "AlysiumX.Windows.WinTil.UI\AlysiumX.Windows.WinTil.UI.csproj", "{87A95109-6417-4FD7-99E6-546A04EF1710}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlysiumX.Windows.WinTil.Data", "AlysiumX.Windows.WinTil.Data\AlysiumX.Windows.WinTil.Data.csproj", "{38E5CD9F-EDDD-409B-8E73-4C72242EB3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlysiumX.Windows.WinTil.UI", "AlysiumX.Windows.WinTil.Wpf\AlysiumX.Windows.WinTil.UI.csproj", "{7840416D-30DA-456D-B96D-612D93987048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{79F3414E-B176-4E56-87B9-A28DE32B6012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F3414E-B176-4E56-87B9-A28DE32B6012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F3414E-B176-4E56-87B9-A28DE32B6012}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87A95109-6417-4FD7-99E6-546A04EF1710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87A95109-6417-4FD7-99E6-546A04EF1710}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87A95109-6417-4FD7-99E6-546A04EF1710}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87A95109-6417-4FD7-99E6-546A04EF1710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E5CD9F-EDDD-409B-8E73-4C72242EB3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E5CD9F-EDDD-409B-8E73-4C72242EB3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E5CD9F-EDDD-409B-8E73-4C72242EB3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E5CD9F-EDDD-409B-8E73-4C72242EB3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7840416D-30DA-456D-B96D-612D93987048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7840416D-30DA-456D-B96D-612D93987048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7840416D-30DA-456D-B96D-612D93987048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7840416D-30DA-456D-B96D-612D93987048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

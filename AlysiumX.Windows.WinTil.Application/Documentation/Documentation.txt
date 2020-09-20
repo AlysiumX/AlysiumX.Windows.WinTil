@@ -8,6 +8,7 @@ KeyEntry happens on key press.
 Value Entry show the command box to enter commands.
 ( shortcut - ac )add context [name]
 ( shortcut - c[name] ) switch to a context.
+( shortcut - dc[name])delete context [name]
 
 
 When adding a command the type must be chosen.
