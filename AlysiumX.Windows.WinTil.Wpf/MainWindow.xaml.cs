@@ -22,7 +22,6 @@ namespace AlysiumX.Windows.WinTil.UI
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		//TODO : this logic needs to move, it does not belong in the UI layer!
 		[DllImport( "user32.dll" )]
 		private static extern bool RegisterHotKey( IntPtr hWnd, int id, uint fsModifiers, uint vk );
 
@@ -47,7 +46,7 @@ namespace AlysiumX.Windows.WinTil.UI
 		public MainWindow()
 		{
 			command = new Command();
-			InitializeComponent();
+			//InitializeComponent();
 		}
 
 		private IntPtr _windowHandle;
@@ -60,7 +59,7 @@ namespace AlysiumX.Windows.WinTil.UI
 			_source = HwndSource.FromHwnd( _windowHandle );
 			_source.AddHook( HwndHook );
 
-			RegisterHotKey( _windowHandle, HOTKEY_ID, MOD_WIN, VK_OEM_3 ); //CTRL + CAPS_LOCK
+			RegisterHotKey( _windowHandle, HOTKEY_ID, MOD_WIN, VK_OEM_3 ); //WIN + TILDE
 			this.Visibility = Visibility.Hidden;
 		}
 

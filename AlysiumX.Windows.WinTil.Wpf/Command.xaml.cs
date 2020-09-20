@@ -21,23 +21,25 @@ namespace AlysiumX.Windows.WinTil.UI
 			//Info.Text = $"Context:{Processor.Process( DefaultCommands.Context )}";
 		}
 
-		//public void SendButton_Clicked(object sender, RoutedEventArgs e)
-		//{
-		//	Message.Text = "";
-		//	var responseMessage = ProcessCommand(EntryBox.Text);
-		//	EntryBox.Text = "";
 
-		//	if( responseMessage != "" )
-		//	{
-		//		Message.Text = responseMessage;
-		//	}
-		//	else
-		//	{
-		//		this.Hide();
-		//	}
+		//TODO : Simple routing system, simplar to a web api.
+		public void SendButton_Clicked( object sender, RoutedEventArgs e )
+		{
+			//	Message.Text = "";
+			//	var responseMessage = ProcessCommand(EntryBox.Text);
+			//	EntryBox.Text = "";
 
-		//	Info.Text = $"Context:{Processor.Process( DefaultCommands.Context )}";
-		//}
+			//	if( responseMessage != "" )
+			//	{
+			//		Message.Text = responseMessage;
+			//	}
+			//	else
+			//	{
+			//		this.Hide();
+			//	}
+
+			//	Info.Text = $"Context:{Processor.Process( DefaultCommands.Context )}";
+		}
 
 		//private string ProcessCommand(string text)
 		//{

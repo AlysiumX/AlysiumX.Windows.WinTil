@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AlysiumX.Windows.WinTil.Domain\AlysiumX.Windows.WinTil.Domain.csproj" />
+    <ProjectReference Include="..\AlysiumX.Windows.WinTil.Application\AlysiumX.Windows.WinTil.Application.csproj" />
   </ItemGroup>
 
 </Project>

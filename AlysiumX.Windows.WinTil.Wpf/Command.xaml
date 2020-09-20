@@ -18,12 +18,9 @@
 		<Grid.RowDefinitions>
 			<RowDefinition Height="15"/>
 			<RowDefinition Height="30"/>
-			
 		</Grid.RowDefinitions>
 		<TextBlock Name="Info" FontSize="10" Grid.Column="0" Grid.Row="0"></TextBlock>
 		<TextBox Name="EntryBox" FontSize="15" Grid.Column="0" Grid.Row="1"></TextBox>
-		<Button Name="SendButton" Grid.Column="1" Margin="5,0,0,0" IsDefault="true" Grid.Row="1"  Content="Send"></Button>
-		<!--Click="SendButton_Clicked"-->
-		<!--<TextBlock Name="Message" FontSize="20" Grid.Column="0" Grid.Row="2"></TextBlock>-->
+		<Button Name="SendButton" Grid.Column="1" Margin="5,0,0,0" IsDefault="true" Grid.Row="1" Click="SendButton_Clicked" Content="Send"></Button>
 	</Grid>
 </Window>
